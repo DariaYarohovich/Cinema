@@ -1,0 +1,33 @@
+.app {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 60px 60px 1fr 60px;
+}
+
+.container {
+  grid-column: 2 / 12;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  background-color: yellowgreen;
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  background-color: salmon;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  background-color: aquamarine;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  background-color: violet;
+}
